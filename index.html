@@ -50,7 +50,7 @@
     </nav>
 
     <header>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-wrap="true">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -74,9 +74,9 @@
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
                 <div class="carousel-item" style="background-image: url('images/splash/image-3.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <h3>Third Slide</h3>
-                        <p>This is a description for the third slide.</p>
+                        <p data-toggle="modal" data-target="#pageThreeModal">This is a description for the third slide.</p>
                     </div>
                 </div>
                 <!-- Slide Four - Set the background image for this slide in the line below -->
@@ -123,6 +123,26 @@
             </div>
         </div>
     </nav>
+
+    <div class="modal fade" id="pageThreeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    	<div class="modal-dialog modal-lg" role="document">
+    		<div class="modal-content">
+    			<div class="modal-header">
+    				<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+    				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    			</div>
+    			<div class="modal-body">
+    				<p>
+                        Usage
+The modal plugin toggles your hidden content on demand, via data attributes or JavaScript. It also adds .modal-open to the <body> to override default scrolling behavior and generates a .modal-backdrop to provide a click area for dismissing shown modals when clicking outside the modal.
+
+Via data attributes
+Activate a modal without writing JavaScript. Set data-toggle="modal" on a controller element, like a button, along with a data-target="#foo" or href="#foo" to target a specific modal to toggle.
+                    </p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
