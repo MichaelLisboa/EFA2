@@ -1,11 +1,18 @@
 /* FULLSCREEN CAROUSEL BOOTSTRAP */
 
 .carousel-item {
-  height: 100vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+
+/* .modal.fade .modal-dialog {
+	-webkit-transform: translate(0, 25%) !important;
+	-ms-transform: translate(0, 25%) !important;
+	-0-transform: translate(0, 25%) !important;
+	transform: translate(0, 25%) !important;
+} */
