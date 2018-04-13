@@ -1,3 +1,4 @@
+// STYLES AND ACTIONS FOR MOBILE NAV
 $('ul.navbar-nav li a').click(function(e) {
 	var $this = $(this);
 	$this.parent().siblings().removeClass('active').end().addClass('active');
@@ -12,6 +13,7 @@ $('ul.navbar-nav li a').click(function(e) {
 	e.preventDefault();
 });
 
+// RESET MODAL STYLES FOR FULL SCREEN
 $('.modal').on('shown.bs.modal', function() {
 	$(".modal-body").css("margin", '0px');
 	$(".modal-dialog").css({
@@ -24,7 +26,7 @@ $('.modal').on('shown.bs.modal', function() {
 	});
 });
 
-
+// TOUCH SWIPE CAROUSEL FOR MOBILE
 $(".carousel").on("touchstart", function(event) {
 	var xClick = event.originalEvent.touches[0].pageX;
 	$(this).one("touchmove", function(event) {
