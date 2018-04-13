@@ -1,5 +1,8 @@
 /* FULLSCREEN CAROUSEL BOOTSTRAP */
 
+body, document{
+	height: 100%;
+}
 .carousel-item {
 	height: 100vh;
 	min-height: 300px;
@@ -8,6 +11,18 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.carousel-caption {
+	bottom: 100px;
+	left: 100px;
+	text-align: left;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	margin-top: 30%;
+	height: 30px;
 }
 
 /* .modal.fade .modal-dialog {
