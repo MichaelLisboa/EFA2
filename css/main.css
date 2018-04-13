@@ -97,6 +97,7 @@
 	border-radius: 0 !important;
 	background-image: url('../images/splash/image-5.jpg');
 	background-size: cover;
+	background-position: top center;
 }
 
 .modal-title {
