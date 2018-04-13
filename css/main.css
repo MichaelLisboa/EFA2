@@ -84,6 +84,13 @@
 	height: 30px;
 }
 
+.modal-dialog,
+.modal-content {
+	margin: 0 auto !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+}
+
 /* .modal.fade .modal-dialog {
 	-webkit-transform: translate(0, 25%) !important;
 	-ms-transform: translate(0, 25%) !important;
