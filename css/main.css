@@ -91,6 +91,25 @@
 	border-radius: 0 !important;
 }
 
+.modal-header{
+	height: 350px;
+	border: 0 !important;
+	border-radius: 0 !important;
+	background-image: url('../images/splash/image-5.jpg');
+	background-size: cover;
+}
+
+.modal-title {
+	margin: 225px 0 0 25px;
+}
+
+.modal-header h5 {
+	font-family: 'Product Sans', sans-serif !important;
+	font-weight: 200 !important;
+	font-size: 1.75em !important;
+	line-height: 1.25em;
+}
+
 /* .modal.fade .modal-dialog {
 	-webkit-transform: translate(0, 25%) !important;
 	-ms-transform: translate(0, 25%) !important;
