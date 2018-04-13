@@ -6,10 +6,8 @@ $('ul.navbar-nav li a').click(function(e) {
 		$('#topNavbarResponsive').trigger("click");
 
 		setTimeout(function() {
-			$('#topNavbarResponsive').removeClass("show");
-			$('#topNavbarResponsive').addClass("hide");
-            // $('#topNavbarResponsive').fadeOut( "slow");
-		}, 330);
+			$('.navbar-collapse').collapse('hide');
+		}, 200);
 	}
 	e.preventDefault();
 });
